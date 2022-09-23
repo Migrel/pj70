@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Meu primeiro blog</title>
+
+        <link rel="stylesheet" type='text/css' href="style.css">
+                
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    
+    <body>
+        
+        <nav class="navbar-inverse meuMenu">
+
+            <!--Irá exibir o conteúdo caso o site seja aberto no celular -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#meuMenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!--Irá exibir o conteúdo caso o site seja aberto no computador -->
+            <div class="collapse navbar-collapse" id="meuMenu">
+            <ul class="nav navbar-nav">
+                <!-- Complete o menu -->
+                    <li><a href="#jogos">  JOGOS      </a></li>
+                    <li><a href="#sobre"> SOBRE     </a></li>
+                    <li><a href="#filmes">  FILMES     </a></li>   
+                    <li><a href="#contato"> CONTATO     </a></li>
+                </ul>
+            </div>
+
+        </nav>
+            
+        
+   
+
+        <!--Para que a página seja responsiva, defina a classe para container -->
+        <div  class="container">
+
+        <!-- Defina a classe para PAGE-HEADER e o id para FILMES em minúsculo  e o texto para Crítica de Filmes-->
+        <h2  class="page-header" id="filmes"   > Meus filmes favoritos </h2>
+
+        <!--Defina a classe para BG-PRIMARY FILMESHEAD e o DATA-TOGGLE para COLLAPSE e o DATA TARGET para O NOME DO FILME -->
+
+        <div class="bg-primary filmesHead" data-toggle="collapse" data-target="#Vingadores">
+        <!--crie uma tag span da classe GLYPHICON GLYPHICON-FILM -->
+      <span class="glyphicon glyphicon-film">  </span> 
+        Vingadores Era de Ultron
+            <!--código para criar uma setinha -->
+            <i class="fa fa-sort-desc" ></i>
+        </div>
+
+        <!--defina o id para o nome do filme a classe para COLLAPSE-->
+        <div class="collapse" id="Vingadores">
+
+            <!--defina a classe para FILMESTEXT-->
+            <div class="filmesText" >
+
+            <!-- coloque a imagem do filme e a classe para IMG-RESPONSIVE IMG-THUMBNAIL -->
+            <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/88213EB5FD56CBEC40631A874B3F126CF558635B0788DC904E860E990607888B/scale?width=1200&aspectRatio=1.78&format=jpeg" class="img-responsive img-thumbnail"> 
+
+            <!--Defina a classe para TEXT-SUCCESS TEXT-CAPITALIZE -->
+            <h5 class="text-success text-capitalize"> 
+                <!--Adicione uma descrição do filme -->
+               Um fime de ação com muita luta.
+
+                <!--adicione 5 tags spans da classe GLYPHICON GLYPHICON-STAR -->
+               <span class="glyphicon glyphicon-star" ></span>
+               <span class="glyphicon glyphicon-star" ></span>
+               <span class="glyphicon glyphicon-star" ></span>
+               <span class="glyphicon glyphicon-star" ></span>
+
+            </h5>
+                <p>
+                <!-- conte sua experiência assistindo o filme -->
+    logo no começo ja temos uma luta dos vingadores, e assim segue para o resto do fime, eu fiquei (quando assisti) muito desesperado com as lutas porque elas eram muito emocionantes e a Marvel realmente sabe fazer isso.
+            </p>
+            </div>
+        
+        </div>
+        
+       
+
+          <!--Defina a classe para BG-PRIMARY FILMESHEAD e o DATA-TOGGLE para COLLAPSE e o DATA TARGET para O NOME DO FILME -->
+  
+          <div class="BG-PRIMARY FILMESHEAD" data-toggle="collapse" data-target="#Sonic2" >
+          <!--crie uma tag span da classe GLYPHICON GLYPHICON-FILM -->
+           <span glyphicon glyphicon-film></span>
+           Sonic 2 o Filme    
+            
+              <i class="fa fa-sort-desc" ></i>
+          </div>
+  
+          <!--defina o id para o nome do filme a classe para COLLAPSE-->
+          <div id="Sonic2" class="collapse" >
+  
+              <!--defina a classe para FILMESTEXT-->
+              <div class="filmesText" >
+  
+              <!-- coloque a imagem do filme e a classe para IMG-RESPONSIVE IMG-THUMBNAIL -->
+              <img src="https://manualdosgames.com/wp-content/uploads/2022/06/Sonic-2.jpg" class="img-thumbnail"> 
+  
+              <!--Defina a classe para TEXT-SUCCESS TEXT-CAPITALIZE -->
+              <h5  class="text-success text-capitalize"  > 
+                  <!--Adicione uma descrição do filme -->
+            é um filme de reviravoltas, amizades e vingança.   
+  
+                  <!--adicione 5 tags spans da classe GLYPHICON GLYPHICON-STAR -->
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+              </h5>
+                  <p>
+                  <!-- conte sua experiência assistindo o filme -->
+                  Eu, quando assisti sai triste porque acabou pois o filme é simplismente perfeito, contem boas rizadas, novas transformações, amigos, reviravoltas, e um novo objetivo. E mais uma vez Tom e Sonic salvam o dia com a ajuda de mais dois amigos Nukles e Tails.
+              </p>
+              </div>
+          
+          </div>
+                    
+
+        </div>
+</body>
+</html>
